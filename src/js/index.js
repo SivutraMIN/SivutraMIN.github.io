@@ -1,7 +1,7 @@
 const project_button = document.getElementById("btn-project")
 project_button.addEventListener("click", () => {
     try {
-        window.location.href = "../html/projects.html"
+        window.location.href = "/src/html/projects.html"
     }   
     catch (error) {
         console.error("File not Found!")
@@ -12,7 +12,7 @@ project_button.addEventListener("click", () => {
 const blog_button = document.getElementById("btn-blog")
 blog_button.addEventListener("click", () => {
     try {
-        window.location.href = "../html/blogs.html"
+        window.location.href = "/src/html/blogs.html"
     }
     catch (error) {
         console.error("File not Found!")
@@ -27,7 +27,7 @@ github_button.addEventListener("click", () => {
 const contact_button = document.getElementById("../html/contact.html")
 contact_button.addEventListener("click", () => {
     try {
-        window.location.href = "./html/contact.html"
+        window.location.href = "/src/html/contact.html"
     }
     catch (error) {
         console.error("File not Found!")

@@ -1,0 +1,21 @@
+body {
+    margin:0;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    height: 10vh;
+}
+
+
+#head_name > p {
+    color:white;
+}
+
+
+footer {
+    background-color: red;
+    height: 10vh;
+}

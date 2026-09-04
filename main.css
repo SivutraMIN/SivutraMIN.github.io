@@ -19,3 +19,13 @@ footer {
     background-color: red;
     height: 10vh;
 }
+
+#sec-projects {
+    display: grid;
+    grid: 200px 200px 200px / 200px 200px 200px;
+    border: 2px solid yellow;
+}
+
+#sec-projects > div {
+    border: 2px solid red;
+}
